@@ -80,3 +80,23 @@ footer {
     border: solid black;
     border-radius: 15px;
 }
+
+/* Add media rules for container class below */
+/* For screens where the width is at least 440px*/
+@media (max-width: 600px) {
+    .secondary-content {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    article {
+        margin-top: 2%;
+    }
+
+    #reservations {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
