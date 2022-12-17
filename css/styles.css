@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    display: inline;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+body {
+    margin: 2rem 5%;
+}
+
+header{
+    border: solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+header img {
+    display: inline;
+    height: 5rem;
+    margin: 1%;
+}
+
+nav {
+    border: solid black;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+article {
+    border: solid black;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.main-content {
+    flex: 2;
+    margin-top: 1%;
+}
+
+.secondary-content {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#reservations {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    border-radius: 15px;
+}
