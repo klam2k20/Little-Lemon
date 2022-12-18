@@ -26,6 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&display=swap">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&display=swap');
@@ -33,31 +34,44 @@
 </head>
 
 <body>
-  <header>
-    <img src="images/logo.png" alt="Little Lemon Logo">
-    <div class="glow-container">
-    <h1 class="glow">L</h1>
-    <h1 class="glow">I</h1>
-    <h1 class="glow">T</h1>
-    <h1 class="glow">T</h1>
-    <h1 class="glow">L</h1>
-    <h1 class="glow">E</h1>
-    <h1>&nbsp</h1>
-    <h1 class="glow">L</h1>
-    <h1 class="glow">E</h1>
-    <h1 class="glow">M</h1>
-    <h1 class="glow">O</h1>
-    <h1 class="glow">N</h1>
-    </div>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Little Lemon Logo" class="d-inline-block align-text-middle">
+        <div class="glow-container">
+            <h1 class="glow">L</h1>
+            <h1 class="glow">I</h1>
+            <h1 class="glow">T</h1>
+            <h1 class="glow">T</h1>
+            <h1 class="glow">L</h1>
+            <h1 class="glow">E</h1>
+            <h1>&nbsp</h1>
+            <h1 class="glow">L</h1>
+            <h1 class="glow">E</h1>
+            <h1 class="glow">M</h1>
+            <h1 class="glow">O</h1>
+            <h1 class="glow">N</h1>
+        </div>
+        </a>
 
-  <nav>
-    <ul>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservations</li>
-        <li>Contact Us</li>
-    </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav .justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
   </nav>
 
   <main>
@@ -93,6 +107,7 @@
   </footer>
 
   <script src="js/scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

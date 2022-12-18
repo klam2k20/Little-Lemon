@@ -4,37 +4,30 @@
 }
 
 body {
-    margin: 2rem 5%;
+    margin: 2rem 3%;
     font-family: 'Noto Serif NP Hmong', serif;
-    /* background: #002f24; */
-    background-color: #f7f7f7;
-    /* background-color: #486056; */
 }
 
-header {
-    border: solid black;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1%;
-}
-
-header img {
+img {
     display: inline;
     height: 5em;
     margin: 1%;
 }
 
-h1 {
-    font-size: 3rem;
+.glow-container {
     display: inline;
-    color: #4c5c53;
+    text-align: center;
 }
 
 .glow-container:hover .glow{
     color: #fff;
     animation: glow 1s ease-in-out infinite alternate;
+}
+
+h1 {
+    font-size: 4vw;
+    display: inline;
+    color: #4c5c53;
 }
 
 @keyframes glow {
@@ -45,35 +38,12 @@ h1 {
       text-shadow: 0 0 20px #fff, 0 0 30px #f3cb14, 0 0 40px #f3cb14, 0 0 50px #f3cb14, 0 0 60px #f3cb14;
     }
   }
-  
-nav {
-    border: solid black;
-    border-radius: 15px;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav li {
-    display: inline-block;
-}
 
 main {
     display: flex;
     flex-direction: column;
+    margin-top: 1%;
     margin-bottom: 1%;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-article {
-    border: solid black;
-    border-radius: 15px;
-    padding: 2%;
 }
 
 .main-content {
@@ -91,6 +61,16 @@ article {
 #reservations {
     margin-left: 2%;
     margin-right: 2%;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+article {
+    border: solid black;
+    border-radius: 15px;
+    padding: 2%;
 }
 
 footer {
