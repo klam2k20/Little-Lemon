@@ -3,20 +3,15 @@
     margin: 0;
 }
 
-h1 {
-    font-size: 3rem;
-    display: inline;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
 body {
     margin: 2rem 5%;
+    font-family: 'Noto Serif NP Hmong', serif;
+    /* background: #002f24; */
+    background-color: #f7f7f7;
+    /* background-color: #486056; */
 }
 
-header{
+header {
     border: solid black;
     border-radius: 15px;
     display: flex;
@@ -27,10 +22,30 @@ header{
 
 header img {
     display: inline;
-    height: 5rem;
+    height: 5em;
     margin: 1%;
 }
 
+h1 {
+    font-size: 3rem;
+    display: inline;
+    color: #4c5c53;
+}
+
+.glow-container:hover .glow{
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dcbc1f, 0 0 40px #dcbc1f, 0 0 50px #dcbc1f;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f3cb14, 0 0 40px #f3cb14, 0 0 50px #f3cb14, 0 0 60px #f3cb14;
+    }
+  }
+  
 nav {
     border: solid black;
     border-radius: 15px;
@@ -49,6 +64,10 @@ main {
     display: flex;
     flex-direction: column;
     margin-bottom: 1%;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 article {
@@ -82,7 +101,7 @@ footer {
 }
 
 /* Add media rules for container class below */
-/* For screens where the width is at least 440px*/
+/* For screens where the width is below 600px*/
 @media (max-width: 600px) {
     .secondary-content {
         flex: 3;
