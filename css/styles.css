@@ -170,8 +170,8 @@ footer {
     .image img {
         margin: 0;
         width: 100%;
-        height: 250px;
-        object-fit: contain;
+        height: 50vh;
+        object-fit: cover;
     } 
 
     footer {
