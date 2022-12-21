@@ -5,14 +5,23 @@
 }
 
 body {
-    margin: 2rem 3%;
     font-family: 'Noto Serif NP Hmong', serif;
 }
 
-img {
+nav {
+    margin: 1rem 3%;
+}
+
+#nav-bar-logo {
     display: inline;
     height: 8rem;
     margin: 1%;
+}
+
+h1 {
+    font-size: 4vw;
+    display: inline;
+    color: #4c5c53;
 }
 
 .glow-container {
@@ -23,12 +32,6 @@ img {
 .glow-container:hover .glow{
     color: #fff;
     animation: glow 1s ease-in-out infinite alternate;
-}
-
-h1 {
-    font-size: 4vw;
-    display: inline;
-    color: #4c5c53;
 }
 
 @keyframes glow {
@@ -46,10 +49,6 @@ main {
     margin-bottom: 1%;
 }
 
-.main-content {
-    flex: 2;
-}
-
 #slider {
     position: relative;
     width: 500%;
@@ -65,8 +64,8 @@ main {
 .image img {
     margin: 0;
     width: 100%;
-    height: 500px;
-    object-fit: contain;
+    height: 600px;
+    object-fit: cover;
 } 
 
 @keyframes slider {
@@ -100,7 +99,6 @@ main {
 }
 
 .secondary-content {
-    flex: 3;
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
