@@ -164,6 +164,7 @@ article {
     padding: 2%;
 }
 
+/* --------------------------------------------------------- Footer --------------------------------------------------------- */
 footer {
     display: flex;
     justify-content: space-around;
@@ -171,6 +172,7 @@ footer {
     border-radius: 15px;
 }
 
+/* --------------------------------------------------------- Responsive --------------------------------------------------------- */
 /* Add media rules for container class below */
 /* For screens where the width is below 600px*/
 @media (max-width: 600px) {
