@@ -205,6 +205,14 @@ footer div {
 /* Add media rules for container class below */
 /* For screens where the width is below 600px*/
 @media (max-width: 600px) {
+    .gallery {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 2% auto;
+    }
+
     .cards {
         display: flex;
         flex-direction: column;
