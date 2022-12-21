@@ -167,6 +167,7 @@ main {
 
 .card:hover {
     opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card img {
@@ -179,9 +180,17 @@ main {
 /* --------------------------------------------------------- Footer --------------------------------------------------------- */
 footer {
     display: flex;
-    justify-content: space-around;
-    border: solid black;
-    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 100%;
+}
+#footer-logo {
+    display: inline;
+    height: 4rem;
+    margin: 1%;
 }
 
 /* --------------------------------------------------------- Responsive --------------------------------------------------------- */
