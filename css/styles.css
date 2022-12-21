@@ -81,7 +81,7 @@ main {
     position: absolute;
     top: 60%;
     left: 50%;
-    font-size: max(1vw, 1vh);
+    font-size: max(1.5vw, 1.5vh);
     transform: translate(-50%, -30%);
 }
 
