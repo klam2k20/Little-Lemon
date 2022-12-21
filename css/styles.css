@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* border: solid red 1px; */
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 
 img {
     display: inline;
-    height: 5em;
+    height: 8rem;
     margin: 1%;
 }
 
@@ -42,13 +43,60 @@ h1 {
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 1%;
     margin-bottom: 1%;
 }
 
 .main-content {
     flex: 2;
-    margin-top: 1%;
+}
+
+#slider {
+    position: relative;
+    width: 500%;
+    overflow: hidden;
+    display: flex;
+    animation: 20s slider infinite;
+} 
+
+.image {
+    width: 20%;
+}
+
+.image img {
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+} 
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
 }
 
 .secondary-content {
@@ -98,4 +146,11 @@ footer {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .image img {
+        margin: 0;
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+    } 
 }
