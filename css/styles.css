@@ -49,10 +49,13 @@ main {
     margin-bottom: 1%;
 }
 
+.main-content {
+    overflow: hidden;
+}
+
 #slider {
     position: relative;
     width: 500%;
-    overflow: hidden;
     display: flex;
     animation: 20s slider infinite;
 } 
