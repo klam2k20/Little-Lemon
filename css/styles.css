@@ -62,6 +62,9 @@ main {
 
 .image {
     width: 20%;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .image img {
@@ -70,6 +73,22 @@ main {
     height: 600px;
     object-fit: cover;
 } 
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8vw;
+    transform: translate(-50%, -50%);
+}
+
+.image-subtitle {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 1vw;
+    transform: translate(-50%, -30%);
+}
 
 @keyframes slider {
     0% {
@@ -99,7 +118,7 @@ main {
     100% {
         left: -400%;
     }
-}
+} 
 
 .secondary-content {
     display: flex;
