@@ -153,4 +153,13 @@ footer {
         height: 250px;
         object-fit: contain;
     } 
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: solid black;
+        border-radius: 15px;
+    }
 }
