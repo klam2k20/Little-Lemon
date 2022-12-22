@@ -52,6 +52,7 @@ main {
 
 #image-banner {
     position: relative;
+    text-align: center;
 }
 
 #image-banner img {
@@ -121,6 +122,9 @@ main {
 
 #menu-title {
     grid-area: menu-title;
+    font-size: max(3vw, 3vh);
+    text-align: center;
+    margin: 100px auto;
 }
 
 #menu-1 {
