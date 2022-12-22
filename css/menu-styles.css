@@ -40,10 +40,38 @@ h1 {
     }
   }
 
-  /* --------------------------------------------------------- Menu Header --------------------------------------------------------- */
- 
+/* --------------------------------------------------------- Menu Header --------------------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+}
 
-  /* --------------------------------------------------------- Footer --------------------------------------------------------- */
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#menu{
+    display: grid;
+    grid-template-areas: 
+                        "menu-title menu-title"
+                        "menu-1 menu-2";
+}
+
+#menu-title {
+    grid-area: menu-title;
+}
+
+#menu-1 {
+    grid-area: menu-1;
+}
+
+#menu-2 {
+    grid-area: menu-2;
+}
+
+/* --------------------------------------------------------- Footer --------------------------------------------------------- */
 footer {
     display: flex;
     justify-content: center;
