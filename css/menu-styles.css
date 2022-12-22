@@ -18,7 +18,7 @@ nav {
     margin: 1%;
 }
 
-h1 {
+.glow {
     font-size: 4vw;
     display: inline;
     color: #4c5c53;
@@ -95,6 +95,7 @@ main {
     justify-content: center;
     align-items: center;
     grid-area: min(1vh, 1vw);
+    text-align: center;
 }
 
 .option-label {
@@ -103,7 +104,6 @@ main {
 
 .option-description {
     font-size: max(1vw, 1vh);
-    text-align: center;
 }
 
 .option-price {
