@@ -121,6 +121,7 @@ main {
     grid-template-areas: 
                         "menu-title menu-title"
                         "menu-1 menu-2";
+    column-gap: 30px;
 }
 
 #menu-title {
@@ -130,14 +131,21 @@ main {
     margin-bottom: 50px;
 }
 
+.menu-section {
+    width: (50vw-15px);
+}
+
 #menu-1 {
     grid-area: menu-1;
-    width: 50vw;
 }
 
 #menu-2 {
     grid-area: menu-2;
-    width: 50vw;
+}
+
+.menu-entry h3 {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* --------------------------------------------------------- Footer --------------------------------------------------------- */
