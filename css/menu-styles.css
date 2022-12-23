@@ -14,7 +14,7 @@ nav {
 
 #nav-bar-logo {
     display: inline;
-    height: 8rem;
+    height: 12vh;
     margin: 1%;
 }
 
@@ -145,7 +145,7 @@ main {
 }
 
 .menu-section article {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .article-title {
@@ -213,5 +213,17 @@ footer div {
     }
     .gallery-item:nth-child(8) {
         order: 7;
+    }
+
+    #menu{
+        grid-template-areas: 
+                            "menu-title"
+                            "menu-1"
+                            "menu-2";
+        column-gap: 0rem;
+    }
+
+    .menu-section {
+        width: 90vw;
     }
 }
