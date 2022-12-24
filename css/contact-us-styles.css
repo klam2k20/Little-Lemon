@@ -105,6 +105,8 @@ main {
 
 #contact-info li {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 /* --------------------------------------------------------- Footer --------------------------------------------------------- */
 footer {
