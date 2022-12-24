@@ -5,10 +5,13 @@
 
 body {
     font-family: 'Noto Serif NP Hmong', serif;
-    margin: 1% 3%;
 }
 
 /* --------------------------------------------------------- Navigation Bar --------------------------------------------------------- */
+nav {
+    margin: 1% 3%;
+}
+
 #nav-bar-logo {
     display: inline;
     height: 12vh;
@@ -40,10 +43,70 @@ body {
     }
   }
 
-  /* --------------------------------------------------------- Menu Header --------------------------------------------------------- */
- 
+/* --------------------------------------------------------- Main Header --------------------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-  /* --------------------------------------------------------- Footer --------------------------------------------------------- */
+#image-banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#image-banner img {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+#image-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vh;
+    color: white;
+}
+
+#contact-us {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1% 3%;
+}
+
+#contact-us-form, #contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#contact-us-form input, #contact-us-form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+#contact-info div {
+    margin-bottom: 1rem;
+}
+
+#contact-info ul {
+    padding-left: 0rem;
+}
+
+#contact-info li {
+    list-style: none;
+}
+/* --------------------------------------------------------- Footer --------------------------------------------------------- */
 footer {
     display: flex;
     justify-content: center;
@@ -62,4 +125,17 @@ hr {
 
 footer div { 
     color: #4c5c53;
+}
+
+/* --------------------------------------------------------- Responsive --------------------------------------------------------- */
+/* Add media rules for container class below */
+/* For screens where the width is below 600px*/
+@media (max-width: 600px) {
+    #contact-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin: 1% 3%;
+    }
 }
