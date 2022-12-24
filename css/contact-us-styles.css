@@ -11,11 +11,11 @@ body {
 /* --------------------------------------------------------- Navigation Bar --------------------------------------------------------- */
 #nav-bar-logo {
     display: inline;
-    height: 8rem;
+    height: 12vh;
     margin: 1%;
 }
 
-h1 {
+.glow {
     font-size: 4vw;
     display: inline;
     color: #4c5c53;
