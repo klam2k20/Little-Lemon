@@ -43,9 +43,56 @@ nav {
     }
   }
 
-  /* --------------------------------------------------------- Header --------------------------------------------------------- */
+/* --------------------------------------------------------- Header --------------------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-  /* --------------------------------------------------------- Footer --------------------------------------------------------- */
+#image-banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#image-banner img {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+#image-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+    color: white;
+}
+
+#reservation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+#reservation p {
+    margin-bottom: 3rem;
+}
+
+ul {
+    margin-left: 0rem;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* --------------------------------------------------------- Footer --------------------------------------------------------- */
 footer {
     display: flex;
     justify-content: center;
