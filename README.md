@@ -15,12 +15,12 @@ This project is a website for a fictional restaruant called Little Lemon. It was
 
 <h2>Navigation Bar</h2>
 <p>
-All webpages within the Little Lemon website have a responsive navigation bar. The navigation bar not only contains all the links to each webpage but also includes an animation on the Little Lemon title. When hovering over the Little Lemon text, the title glows and pulses a yellow color as seen in the gift above.
+All webpages within the Little Lemon website have a responsive navigation bar. The navigation bar not only contains all the links to each webpage but also includes an animation on the Little Lemon title. When hovering over the Little Lemon text, the title glows and pulses yellow as seen in the gif above.
 </p>
 
 <h2>Homepage</h2>
 <p>
-The homepage has three main components, an image slider, a photo gallery and a set of action cards. The image slider uses an animation to automatically sequence through a series of images. The photo gallery uses a grid to showcase a set of foods, and drinks. The action cards are links to the other remaining pages.
+The homepage has three main components, an image slider, a photo gallery and a set of action cards. The image slider uses an animation to automatically sequence through a series of images. The photo gallery uses a grid to showcase a set of foods and drinks. The action cards are links to the other remaining pages.
 </p>
 
 <h2>Menu</h2>
