@@ -2,6 +2,7 @@
     <img src="images/animation.gif">
 </p>
 
+[Preview](https://klam2k20.github.io/Little-Lemon/)
 <h2>Overview</h2>
 <p>
 This project is a website for a fictional restaruant called Little Lemon. It was created to practice the fundamental concepts in HTML and CSS such as using semantic elements, grids, flexboxes, animations, and responsive design. The Little Lemon website consists of four pages:
